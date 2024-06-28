@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+  }
+  
+  .top-nav {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-side {
+    width: 25%;
+  }
+  
+  .right-side {
+    width: 75%;
+  }
+  
+  .banner {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flipkart.com%2F&psig=AOvVaw3G_D81hV86x8F2O9F_3vK9&ust=1678300727093000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOi9j8783fwCFQAAAAAdAAAAABAD&uact=8&form=SRPJhS&cshid=527088844352999000&usg=AOvVaw1pW-D6X0g5-Z7xJ5T-K18z&cbes=1&bih=697&biw=1280&hl=en");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    padding-left: 0%;
+    padding-right: 200%;
+    padding-bottom: 0;
+    color: white;
+  }
+  
+  .banner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .banner a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-item h3 {
+    margin-top: 10px;
+  }
+  
+  .product-item p {
+    margin-top: 5px;
+  }
+  
+  .view-all {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .categories {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categories li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .categories li:last-child {
+    border-bottom: none;
+  }
+  
